@@ -65,7 +65,7 @@ GS_DEFAULT_ACL = "publicRead"
 # STATIC
 # ------------------------
 STATICFILES_STORAGE = "utility.storage.WhiteNoiseStaticFileStorage"
-COLLECTFAST_STRATEGY = "django.core.files.storage.FileSystemStorage"
+COLLECTFAST_STRATEGY = "django.core.files.storage.FileSystemStrategy"
 # STATIC_URL = f"https://storage.googleapis.com/{GS_BUCKET_NAME}/static/"
 # MEDIA
 # ------------------------------------------------------------------------------
